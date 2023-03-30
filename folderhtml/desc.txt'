@@ -1,0 +1,21 @@
+the rgb is three colors red,green,blue  users can set the value of the rgb using rgb(0,0,0) values 
+
+user develop the different colors through the rgb html by set the different values of the of the combination in rgb syntax
+
+
+eg for red color 
+rgb(255,0,0).
+
+for blue color rgb(0,255,0).
+
+for green color rgb(0,0,255).
+
+
+
+
+id:- the id attribute is attribute which gives unique id attribute to the html element the id attribute
+
+the user can not use more than one id on the same element by give the id to the html element
+
+the user can identify and also design the each and every input field or data.
+
