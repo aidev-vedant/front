@@ -1,0 +1,25 @@
+<html>
+    <!--counter have function counter(), counter increment,counter reset,counter is used to define the
+    section number in a particular sequence so user easily identify particular section content from start to end-->
+
+    <head>
+        <style>
+            body{
+                counter-reset:Number;
+                text-align:center;
+            }
+            h3::before
+            {  
+                counter-increment:Number;
+                content:"Num" counter(Number) ":";   
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Hello how are you</h3>
+        <h3>Hello Php</h3>
+        <h3>Hello Java</h3>
+        <h3>Hello Mysql</h3>
+        <h3>Hello Slim</h3>
+    </body>
+</html>

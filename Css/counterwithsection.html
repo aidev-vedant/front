@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+            h1::before{
+                counter-increment:Number;
+                content: "Num" counter(Number);
+            }
+            body{
+                counter-reset:Number;
+                text-align:center;
+            }
+         h1{
+                counter-reset:subnum;
+            }
+            h3::before{
+                counter-increment:subnum;
+                content:"num" counter(subnum);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Java List</h1>
+        <h3>servlet</h3>
+        <h3>Applet</h3>
+        <h3>Applet lifecycle</h3>
+
+        <h1>Php</h1>
+        <h3>function</h3>
+        <h3>constructor is a magic method</h3>
+        <h3>destructor is a magic method</h3>
+        <h3>static function</h3>
+
+        <h1> Mysql</h1>
+        <h3>orderby</h3>
+        <h3>Truncate</h3>
+        <h3>insert ignore</h3>
+        <h3>insert on duplicate key update</h3>
+ </body>
+</html>
