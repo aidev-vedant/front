@@ -1,0 +1,17 @@
+1)margins
+2)padding
+3)spacing
+4 background images,background color,
+5 color,wordwraping text align,textdecoration,text size,text shadow,text transform.
+6 !important property,specificity,z-index
+7 position absolute,relative,sticky,static,sroll
+8 hover,display-inline, display-block,display-intial,dispaly-inlinetable.
+9 counters,counter-reset,counter increment countre(name of counter) and content property.
+10 link tag <a></a>
+11 divtag
+12 tables with vertical head and horizontal head with different borders
+13 list order and unorderlist
+14 float property. outline property with offset.
+15 overflow property
+16 pseudo elements
+18 navbar and drop downs
