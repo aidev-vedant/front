@@ -1,0 +1,271 @@
+<html>
+<!DOCTYPE html>
+html text side
+1)text align,left,right,top,bottom
+text transform,uppercase,lowercase
+letter spacing
+text color. and text related tags
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+2) layout side:
+
+<header>,<nav>,<section>,<article,<aside>,<footer>,<details>,<summary>
+
+
+3) iframe tag
+
+<iframe src="path" height="" width="" title=""></iframe>
+
+4) <a> anchor tag
+<a href="" >Google</a>
+<a <a href="" target="self,parent,blank,top" >Google</a>
+
+*)link with colors
+has four default class link,visited,hover,active
+<style>
+a:link {
+  
+}
+
+a:visited {
+  
+}
+
+a:hover {
+  
+}
+
+a:active {
+ 
+}
+</style>
+
+*) link as a buttton with using classes
+
+
+5) img tag
+
+<img src="path"  alt="" height="" width=""> </img>
+
+image as alink 
+
+
+<a href="">
+<img src="path"  alt="" height="" width=""> </img>
+</a>
+
+link as a book mark
+
+<p id="dd">Hello 1</p>
+<p>Hello 1</p>
+<p>Hello 1</p>
+
+<a href="#dd">Goto 1</a>
+
+background images:
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+
+Picture Element:
+
+<picture>
+<source srcset="path">
+<img src="" alt="" height="" width="">
+</picture>
+
+
+
+Favicon Image:The image display in  side of title section header part of browser 
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+6)class attribute
+
+<p class="abc">
+
+7) id attribute
+
+<h2 id="abc"></h2>
+
+9)colors:
+
+text color:
+background color
+border color
+outline color
+
+<style> 
+p{
+    background-color:red;
+    color:yellow;
+    border:1px solid black;
+    outline style:dotted;
+}
+
+10)tables in html 
+
+<tr> <table>,<th>,<td> 
+
+vertical head table.
+ table border:
+
+ border-radius:10px;
+ border:1px solid black;
+border-style:groove,dotted,dashed etc;
+
+table cellpadding,align="center"
+
+table rowspan,colspan,padding,spacing
+table:hover,
+table colgroup
+
+11)semantic tags
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+
+12)font side:
+
+font-family,font size.
+
+13) html meta tag
+
+<meta details>
+
+
+14) form side  
+
+form Element
+
+
+<input>
+<label>
+<select>
+<textarea>
+<button>
+<fieldset>
+<legend>
+<datalist>
+<output>
+<option>
+<optgroup>
+
+
+form input attribute
+
+placeholder,required,readonly,height,width,action,method,muiltiple,value,disabled,size,id,name,class
+
+,step, form target,min and max.
+
+
+
+form input type:
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+
+15) heading side:
+
+<h1> to<h6>
+
+16)list side:
+
+order list 
+unorderlist 
+
+17) Html Media side 
+
+it supports mpe4,wav,.ogg extension
+
+<video height="" width="" controls>
+<source src="" type="">
+</video>
+
+
+for autoplay:
+
+<video height="" width="" autoplay>
+<source src="" type="">
+</video>
+
+for autoplay muted:
+
+<video height="" width=""  autoplay muted>
+<source src="" type="">
+</video>
+
+
+Audio side:
+
+
+<audio controls autoplay>
+  <source src="" type="">
+  <source src="" type="">
+</audio>
+
+
+<audio controls autoplay muted>
+  <source src="" type="">
+  <source src="" type="">
+</audio>
+
+
+Plugins side:
+
+<object height="" width="" data=""></object> 
+
+<embed height="" width="" src=""></embed> 
+
+
+
+ 

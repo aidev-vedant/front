@@ -1,0 +1,92 @@
+1) pseudo elements
+
+before ,after firsline,firstletter,marker,selection
+
+2) outline :
+outline-style,outline-width,outline-offset
+
+3)z-index
+works on priority value arrange the element in the stack manner.
+works with layout relative,absolute,fixed,sticky,static
+
+4)overflow property
+ 
+ hidden,visible,scroll,overflow x-axis ,overflow-y-axis,overflow autoplay
+
+ 5)float:
+ left,right,
+
+ 6)display
+
+ inline,inline-table,intial,block,
+
+ 7)text:
+
+ color,shadow,transformation,textalign,letterspacing,decoration
+
+ 8)dropdowns
+ 9)navbar:-vertical,horizontal
+
+ 10)order list and unorderlist
+    vertical list,horizontal list with bullets and numbers
+
+    11)padding :left,right,top,bottom
+
+    12)margin:left,right,top,bottom
+
+    13)borders :width,style,colors,round border using border-radius 
+
+    and box-border using box-sizing:border-box:25px;
+
+    14)selectors
+
+    *{
+        universal selectors
+    }
+
+    p {
+        element selectors
+    }
+
+ id{
+    selectors
+ }
+ class{
+    selectors
+ }
+
+ 15) style type:
+
+ inline,internal,external
+
+
+ 16)colors 
+ text color ,background-color,rgb() color
+
+ 17)comments:
+
+ /* this is comment*/
+ <---Firstname--->
+
+ 18)specificity
+ 19!Important
+
+ 20)numberic counters 
+
+ counter() counter reset,counter incrment and content
+
+ 21)opacity to blur image 
+
+ value 0.1 to .10
+
+22)pseudo class a:visited,a:unvisited,a:link,a:hover,:fist-child
+
+23) icons cars,cloud,thumb symols etc.
+
+24)css background property.
+
+25)dropdowns
+
+26)navigations
+
+27)image gallery using css float property and display proerty.
