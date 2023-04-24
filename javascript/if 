@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>hello javascript</title>
+    </head>
+    <body>
+
+        <script text/javascript>
+        var age=18;
+        if(age==18)
+        {
+            document.write("user allow for the driving");
+        }
+        else{
+            document.write("user is not allow ");
+        }
+            </script>
+            </body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Hello constant</title>
+    </head>
+    <body>
+
+        <p id="ctm"></p>
+        <p id="t"></p>
+        <p id="m"></p>
+
+
+
+        <script>
+            const subj=["englih","maths","science","hindi"];
+            //constant array
+            const car=["bmw","audi","mercedez"];
+            //constant array changing value through the index
+            car[0]="rolce royice";
+            //addding the value in the array
+            car.push("ferrari");
+        
+            document.getElementById("ctm").innerHTML=subj+car;
+            //creating the constant object array value.
+
+            const obj={name:"vedant",edu:"engineer",branch:"CSE"};
+            obj.language="php";
+            obj.collge="slim4";
+            document.getElementById("m").innerHTML= obj;
+            {
+                const pi=4.55;
+                document.getElementById("t").innerHTML=pi;
+
+            }
+        </script>
+    </body>
+</html>
