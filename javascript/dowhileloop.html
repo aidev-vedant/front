@@ -3,6 +3,8 @@
         <title>hello dowhileloop</title>
     </head>
     <body>
+        <p id="demo"></p>
+
         <script type = "text/javascript">
             var count = 0;
             
@@ -14,6 +16,21 @@
             
             while (count < 5);
             document.write ("Loop stopped!");
+
+
+
+
+            let c=[10,20,30,40,50,60,70];
+let i=0;
+let text="";
+do
+{
+text+= "The Number is :"+c[i]+"<br>";
+document.getElementById("demo").innerHTML=text;
+i++
+}
+while(i <c.length)
+
 
         </script>
     </body>

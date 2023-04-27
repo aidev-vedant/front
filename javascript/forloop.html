@@ -2,6 +2,7 @@
 <head>
 <title> Hello</title>
 </head>
+<p id="demo"></p>
 <body>
       <script type = "text/javascript">
 var count;
@@ -13,6 +14,17 @@ for(count=0;count < 10; count++)
 document.write("current count:"+ count);
 document.write("<br>");
 }
+
+
+let cars=[10,20,30,40,50,60,70];
+
+let text="";
+
+for(let i=0;i<cars.length;i++)
+{
+      text += cars[i]+"<br>";
+}
+document.getElementById("demo").innerHTML=text;
 
 </script>
 </body>
