@@ -1,0 +1,33 @@
+<html>
+
+<body>
+
+Enter your First name: <input type="text" id="firstname" onkeyup="myKeyUpFunction()">
+
+<p>My First name is: <span id="Test"></span></p>
+
+
+Enter Your LastName:<input type="text" id="lastname" onkeyup="myKeyUp()">
+<p> My LastName is:<span id="Tst"></span></p>
+<script>
+
+function myKeyUpFunction() {
+
+  var input = document.getElementById("firstname").value;
+
+  document.getElementById("Test").innerHTML = input;
+}
+
+
+function myKeyUp(){
+
+    var input = document.getElementById("lastname").value;
+    document.getElementById("Tst").innerHTML=input;
+}
+
+</script>
+
+</body>
+
+</html>
+

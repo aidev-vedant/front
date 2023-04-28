@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            Hello The set
+        </title>
+    </head>
+
+    <body>
+        <p id="demo"></p>
+
+        <script>
+
+            let at =new Set(["ab","ac","ad"]);
+            at.add(10);
+            at.add(11);
+            let a=20;
+            at.add(a);
+            at.delete(a);
+            at.has(11);
+            document.getElementById("demo").innerHTML=at.size ;
+            // document.getElementById("demo").innerHTML=at.values() ;
+
+
+        </script>
+    </body>
+</html>

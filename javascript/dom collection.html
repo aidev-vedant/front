@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>hello</title>
+    </head>
+    <body>
+        <p> HEllo the javascript</p>
+        <p> how you all are</p>
+        <p> how to you all</p>
+        <button onclick="myFunction()">Try it</button>
+
+        <script>
+
+            function myFunction() {
+            const mycollect = document.getElementsByTagName("p");
+
+            for(let a=0;a < mycollect.length;a++)
+            {
+                mycollect[a].style.color="blue";
+            }
+        }
+        </script>
+    </body>
+</html>

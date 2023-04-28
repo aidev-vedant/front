@@ -3,6 +3,8 @@
         <title>hello alert</title>
     </head>
     <body>
+        <button type="button" onclick="myfun()">try it</button>
+
         <script>
            var a= confirm("hello confirm box");
            if (a)
@@ -12,6 +14,14 @@
            else{
             alert("sorry");
            }
+           setInterval(myfun, 3000);
+
+           function myfun()
+           {
+            window.alert("hello to all");
+           }
+
+
 
         </script>
     </body>

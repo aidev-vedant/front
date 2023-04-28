@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <tile>Hello javascript</tile>
+    </head>
+
+    <body>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+
+
+
+        <script>
+            let name="ved";
+            var sub="abcd";
+            const branch="Cse";
+
+            function detail()
+            {
+                document.getElementById("demo").innerHTML=name+sub+branch;
+            }
+detail();
+            function glt()
+            {
+                name="hello";
+                comp="stry";
+                image="hello image";
+                document.getElementById("demo1").innerHTML=name+comp;
+                
+            }
+glt();
+document.getElementById("demo3").innerHTML=name+comp+image;
+
+function accss()
+{
+    let c=name+comp+image;
+    document.getElementById("demo2").innerHTML=c;
+
+}
+accss();
+
+        </script>
+    </body>
+</html>
