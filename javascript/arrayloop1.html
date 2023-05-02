@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p>The best way to loop through an array is using a standard for loop:</p>
+
+<p id="demo"></p>
+
+<script>
+const det = [
+["name","vedant","branch","Cse"],
+["name","abc","branch","It"],
+["name","yii","branch","electrical"],
+["name","abc","branch","It"]
+];
+let text="";
+for(i=0;i<det.length;i++)
+{
+for(b=0;b<det.length;b++)
+{
+document.write(det[i][b]+" ");
+}
+document.write("<br>");
+}
+</script>
+
+</body>
+</html>

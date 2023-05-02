@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Hello </title>
+    </head>
+    <body>
+        <p id="ht"></p>
+        <p id="htt"></p>
+
+
+        <script>
+            let abc=["10","20","30","40","50"];
+            let car=new Array("one","two","three","abc");
+            car[0]="bmw";
+            //sorting and legth of array
+            let c=car.length+car.sort();
+            //accessing the last element of the abc array.
+            let b=abc[abc.length-1];
+
+            document.getElementById("ht").innerHTML=abc+car+"<br>"+"the length of array is "+c+"<br>"+b;
+
+
+            //Associative Arrays
+            let name=[];
+            name[0]="vedant";
+            name[1]="24";
+            name[2]="computer";
+
+            name["firstname"]="vedant";
+            name["branch"]="computer";
+            document.getElementById("htt").innerHTML=name+" "+name["firstname"]+name["branch"];
+
+
+            </script>
+    </body>
+</html>
