@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>HEllo</title>
+<head>
+<body>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+
+const ab = {name: "John", age: 30, city: "New York"};
+const val1=JSON.stringify(ab);
+
+localStorage.setItem("myit",val1);
+
+  let tr=localStorage.getItem("myit");
+  let obj=JSON.parse(tr);
+
+document.getElementById("demo12").innerHTML = tr;
+
+
+
+
+</script>
+
+</body>
+</html>

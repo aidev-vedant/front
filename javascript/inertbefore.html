@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>helloo javascript</title>
+</head>
+
+<body>
+<div id="div2">
+<p id="p4">"hello how are you"</p>
+<p id="p5">"this the hello how you are</p>
+</div>
+
+<script>
+
+let ab= document.createElement("p");
+let ty=document.createTextNode("this is the new node");
+ab.appendChild(ab);
+
+let elemen=document.getElementById("div2");
+let child=document.getElementById("p4");
+elemen.insertBefore(ab,child);
+</script>
+</body>
+</html>
+
+
+
+<html>
+<head>
+<title>hello the title</title>
+</head>
+<body>
+
+<div id="div1">
+
+<p id="p1">Hello the </p>
+<p id="p2">hello how are you</p>
+
+</div>
+
+
+<script>
+
+let ab= document.createElement("p");
+let at=document.createTextNode("hello this is the text node");
+ab.appendChild(at);
+
+let pr=document.getElementById("div1");
+let child=document.getElementById("p1");
+
+pr.insertBefore(ab,child);
+</script>
+
+</body>
+</html>

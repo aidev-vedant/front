@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>hello eventlistener</title>
+    </head>
+    <body>
+
+        <p id="demo"></p>
+        <!-- <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p> -->
+
+
+
+        <button id="btn">Click Me</button>
+        <script>
+
+            function fun()
+            {
+                window.alert("hello all the function");
+            }
+            function fun1()
+            {
+                document.getElementById("demo").innerHTML="hello this fun2"+"<br>";
+            }
+            function fun2()
+            {
+                document.getElementById("demo").innerHTML="hello this fun3";
+            }
+            function fun3()
+            {
+                document.getElementById("demo").innerHTML="mouse over"+"<br>";
+            }
+            function fun4()
+            {
+                document.getElementById("demo").innerHTML="mouse out"+"<br>";
+            }
+            let mybtn=document.getElementById("btn");
+            // mybtn.addEventListener('click',fun);
+            // mybtn.addEventListener('click',fun1);
+            mybtn.addEventListener('mouseout',fun4);
+            mybtn.addEventListener("mouseover",fun3);
+
+
+        </script>
+    </body>
+</html>

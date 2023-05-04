@@ -1,0 +1,27 @@
+
+<html>
+    <head></head>
+    <p id="dd"></p>
+    <p id="ddt"></p>
+
+    <body>
+    
+    <script>
+    const txt='{"name":"vvv","birth":"1988-12-15","city":"america"}';
+    
+    const obj=JSON.parse(txt);
+    
+    obj.birth=new Date(obj.birth);
+    
+    document.getElementById("dd").innerHTML=obj.name+obj.birth;
+
+
+
+
+    let text = '{"name":"vedant", "age":"function() {return 25;}", "city":"New York"}';
+let obj = JSON.parse(text);
+obj.age = eval("(" + obj.age + ")");
+document.getElementById("demo").innerHTML = obj.name + ", " + obj.age(); 
+    </script>
+    <body>
+    </html>

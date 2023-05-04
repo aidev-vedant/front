@@ -1,0 +1,159 @@
+<html>
+    <head><title>hello this keyword</title></head>
+    <body>
+        <h2 onclick="abc(this)"> hello javascript</h2>
+        <p id="hh"></p>
+        <script>
+            
+            function abc(a1)
+            {
+               a1.innerHTML="hello how are you";
+;
+            }
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+<html>
+    <body>
+
+        <button onclick="displaydate()">Click</button>
+        <p id="hh1"></p>
+        <script>
+            function displaydate()
+            {
+               document.getElementById("hh1").innerHTML=Date();
+
+            }
+        </script>
+    </body>
+</html>
+
+
+
+
+<html>
+    <body>
+
+        <button onclick="displaydate()">Click</button>
+        <p id="hh1"></p>
+        <script>
+            function displaydate()
+            {
+               document.getElementById("hh1").innerHTML=Date();
+
+            }
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+<html>
+<body onload="checkcook()">
+
+<p id="dem"></p>
+
+
+<script>
+
+function checkcook()
+
+{
+let text="";
+
+if(navigator.cookieEnabled ==true)
+{
+text="cookies are allowed";
+}
+else{
+text="cookies are not allowed";
+}
+
+document.getElementById("dem").innerHTML=text;
+}
+</script>
+
+</body>
+</html> 
+
+
+
+<html>
+    <head>
+        <title>HEllo</title>
+    </head>
+    <body>
+        <input type="text" id="fname" onchange="uppercase()">
+        <script>
+            function upperCase() {
+              const x = document.getElementById("fname");
+              x.value = x.value.toUpperCase();
+            }
+            </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+<html>
+<!--mouse over and mouse out-->
+<body>
+
+    <div onmouseover="mouseov(this)" onmouseout="mouseout(this)"style="height 200px" width="150px" padding="40px">
+        mouse over me
+    </div>
+
+    <script>
+        function mouseov(obj)
+        {
+            obj.innerHTML="mouse over";
+        }
+
+        function mouseout(obj)
+        {
+            obj.innerHTML="mouse out"
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+<html>
+<body>
+<!---mouseUp and mouseDown-->
+<div onmousedown="mousedown(this)" onmouseup="mouseup(this)"
+style="width:90px;height:20px;padding:40px; margin-top:5px;">
+Click Me</div>
+
+<script>
+function mousedown(obj) {
+  obj.style.backgroundColor = "yellow";
+  obj.innerHTML = "mouse down";
+}
+
+function mouseup(obj) {
+  obj.style.backgroundColor="blue";
+  obj.innerHTML="mouse up";
+}
+</script>
+
+</body>
+</html> 
+

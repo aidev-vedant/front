@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>hello bubbling</title>
+        <style>
+            #my1,#my2{
+                border: 1px solid black;
+                background-color:red;
+                height: 20%;
+                width:50%;
+                text-align:center;
+                margin:15px;
+            }
+            #d1,#d2{
+                border: 1px solid black;
+                background-color:yellowgreen;
+                height: 20%;
+                width:70%;
+                text-align:center;
+                margin:15px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="my1">
+            <p id="d1">Click me</p>
+        </div>
+        <div id="my2">
+            <p id="d2">Click me</p>
+        </div>
+
+        <script>
+            document.getElementById("my1").addEventListener('click',function(){
+                window.alert("you click on red parent its bubbling");
+            },false);
+            document.getElementById("d1").addEventListener('click',function(){
+                window.alert("you click on green child its bubbling");
+            },false);
+            document.getElementById("my2").addEventListener('click',function(){
+                window.alert("you click on 2 red parent its capturing");
+            },true);
+            document.getElementById("d2").addEventListener('click',function(){
+                window.alert("you click on green child its capturing");
+            },true);
+        </script>
+    </body>
+</html>

@@ -8,5 +8,3 @@
 echo "The Answer is:".$sum;
 }  
 ?>  
-</body>  
-</html>  

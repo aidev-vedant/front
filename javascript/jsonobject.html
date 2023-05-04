@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>json object</title>
+    </head>
+
+    <body>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+
+        <script>
+      let text= '{"name":"vedant","age:30"}'
+      let obj=JSON.parse(text);
+      document.getElementById("demo").innerHTML=obj.name + obj.age;
+
+
+
+
+      const tet = '[ "Ford", "BMW", "Audi", "Fiat" ]';
+const myArr = JSON.parse(tet);
+document.getElementById("demo").innerHTML = myArr[0];
+
+
+
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+<html>
+    <!-----json object with loop----->
+<head>
+<title>hello</title>
+</head>
+<body>
+<p id="demo1"></p>
+
+<script>
+
+let ab='{"name":"vedant","age":25,"college":"sigma"}';
+
+
+let prs=JSON.parse(ab);
+
+let text1="";
+
+for(let tr in prs)
+{
+text1+= prs[tr] +",";
+}
+document.getElementById("demo").innerHTML=text1;
+</script>
+</body>
+</html>

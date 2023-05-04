@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>hello javascript</title>
+    </head>
+
+    <body>
+        <div id="div1">
+            <p id="p1">hello this node1</p>
+            <p id="p2">hello this node1</p>
+        </div>
+
+        <script>
+            let ab=document.createElement("p");
+            let ac=document.createTextNode("hello this is the replaced node");
+            ab.appendChild(ac);
+
+            let pr=document.getElementById("div1");
+            let ar=document.getElementById("p1");
+            pr.replaceChild(ab,ar);
+        </script>
+    </body>
+</html>
+
+
+
+
+

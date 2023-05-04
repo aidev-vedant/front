@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>hello this is the title</title>
+</head>
+<body>
+<div>
+<p id="p3">this the node 1</p>
+<p id="p4">this is the node2</p>
+
+<button onclick="myFun()">removeElement</button>
+<script>
+
+function myFun()
+{
+document.getElementById("p3").remove();
+}
+</script>
+</body>
+</html>
+
+
+<html>
+<body>
+
+<p>Remove Child Element</p>
+<div id="d1">
+<p id="p1">hello node1</p>
+<p id="p2">hello node2</p>
+</div>
+
+<script>
+let a=document.getElementById("d1");
+let ch=document.getElementById("p1");
+a.removeChild(ch);
+
+</script>
+
+</body>
+</html>

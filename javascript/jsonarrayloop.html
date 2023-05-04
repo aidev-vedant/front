@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<!--for in loop-->
+<h2>Looping an Array</h2>
+<p id="demo"></p>
+
+<script>
+let ab='{"name":"vedant","age":24,"sch":["abc","trt","hello","fialt"]}';
+
+let prs=JSON.parse(ab);
+let text3="";
+for(let ar in prs.sch)
+{
+  text3 += prs.sch[ar] + ", ";
+
+}
+
+document.getElementById("demo").innerHTML = text3;
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<!--for loop traveerse array-->
+<h2>Looping an Array</h2>
+<p id="demo"></p>
+
+<script>
+let abt='{"name":"vedant","age":24,"sch":["abc","trt","hello","fialt"]}';
+
+let pr=JSON.parse(abt);
+let text4="";
+for(let i=0;i< pr.sch.length;i++)
+{
+	text4 +=pr.sch[i]+",";
+}
+
+document.getElementById("demo").innerHTML =text4 ;
+
+</script>
+
+</body>
+</html>
+

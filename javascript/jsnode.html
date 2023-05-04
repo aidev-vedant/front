@@ -1,0 +1,25 @@
+
+
+<html>
+    <head>
+    <title> hello nodes</title>
+    </head>
+    
+    <div id="div2">
+    <p id="p4">this is a paragraph</p>
+    <p id="p5">this is paragraph5</p>
+    
+    </div>
+    
+    <script>
+    let yy=document.createElement("p");
+    let node1=document.createTextNode("this is the new node");
+    yy.appendChild(node1);
+    
+    let element1=document.getElementById("div2");
+    
+    element1.appendChild(yy);
+    </script>
+    </body>
+    </html>
+    
