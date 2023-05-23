@@ -1,0 +1,22 @@
+
+<html>
+    <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $("#one").click(function(){
+    alert("it is the text "+$("p").text());
+    });
+    
+    $("#two").click(function(){
+    alert("it shows the html"+ $("#hh").html());
+    });
+    });
+    </script>
+    </head>
+    <body>
+    <p id="hh">hello bold<b>paragraph text</b></p>
+    <button id="one">show text</button>
+    <button id="two">show html</button>
+    </body>
+    </html>

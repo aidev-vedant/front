@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Functions</h1>
+<h2>Function Sequence</h2>
+<p>JavaScript functions are executed in the sequence they are called.</p>
+
+<p>The result of the calculation is:</p>
+<p id="demo"></p>
+
+
+<script>
+
+function mydc(val)
+{
+document.getElementById("demo").innerHTML=val;
+}
+
+function myadd(one,two,mydata)
+{
+
+let sum=one+two;
+mydata(sum);
+}
+
+myadd(10,20,mydc);
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+//asynchronuos with setTimeout.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Functions</h1>
+<h2>Callback Functions</h2>
+
+<p>The result of the calculation is:</p>
+<p id="demo"></p>
+
+<script>
+function myDisplayer(something) {
+  document.getElementById("demo").innerHTML = something;
+}
+
+setTimeout(function(){ myDisplayer("hello asynchronuos");},3000);
+
+
+
+
+</script>
+
+</body>
+</html>
+
+
+
+//set interval with callback.
+<!DOCTYPE html>
+<html>
+<body>
+<h2>setInterval() with a Callback</h2>
+
+<h1 id="demo"></h1>
+
+<script>
+setInterval(myFunction, 1000);
+
+function myFunction() {
+  
+  document.getElementById("demo").innerHTML="helo";
+  
+  
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Hello javascript</title>
+    </head>
+    <body>
+         <p id="demo"></p>
+
+         <script>
+            function mydisplayer(abc)
+            {
+                document.getElementById("demo").innerHTML=abc;
+            }
+            function second()
+            {
+                document.write("hello second function");
+            }
+            function calculation(num1,num2)
+            {
+                let sum=num1+num2;
+                return sum;
+            }
+
+            let abc =calculation(35,25);
+            mydisplayer(abc);
+            second();
+         </script>
+    </body>
+</html>
+
+
+
+
+<html>
+    <!---anonoymus function call-->
+    <head>
+        <title>Hello javascript</title>
+    </head>
+    <body>
+         <p id="demo1"></p>
+
+         <script>
+
+            function mydis(par)
+            {
+                document.getElementById("demo1").innerHTML=par
+            }
+            function first()
+            {   
+                mydis("hello first");
+            }
+
+            function second()
+            {
+                mydis("hello second");
+            }
+            
+            first();
+            second();
+
+         </script>
+    </body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript async / await</h2>
+
+<p id="demo"></p>
+
+<script>
+function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
+
+async function myFunction() {return "Hello";}
+
+myFunction().then(
+  function(value) {myDisplayer(value);},
+  function(error) {myDisplayer(error);}
+);</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript async / await</h2>
+
+<p id="demo"></p>
+
+<script>
+function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
+
+async function myFunction() {return "Hello";}
+
+myFunction().then(
+  function(value) {myDisplayer(value);}
+);
+
+
+
+
+
+function hh(value){
+document.getElementById("demo").innerHTML=value;
+}
+
+
+async function hello(){
+return "helloo world";
+}
+
+hello().then(function (value){hh(value);});
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <!---exaple of await -->
+<body>
+
+<h2>JavaScript async / await</h2>
+
+<h1 id="demo"></h1>
+
+<script>
+
+
+async function hello()
+{
+let mypr=new Promise(function(resolve,reject){
+resolve("hello to all the cse");
+});
+document.getElementById("demo").innerHTML=await mypr;
+}
+
+hello();
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <!---await in javascript-->
+
+<h2>JavaScript async / await</h2>
+
+
+<h1 id="demo"></h1>
+
+<script>
+
+
+async function htr()
+{
+let yrt=new Promise(function(resolve){
+setTimeout(function(){ resolve("heloo i am resolve after me await will works");},3000);
+});
+
+document.getElementById("demo").innerHTML=await yrt;
+}
+
+htr();
+</script>
+
+</body>
+</html>

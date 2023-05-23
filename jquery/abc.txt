@@ -1,0 +1,14 @@
+<!-- <html>
+    <head>
+        <title>hello title</title>
+    </head>
+    <body>
+        <h1>helloo vedant</h1>
+        <h1> hello ajax method</h1>
+    </body>
+    </html> -->
+
+
+
+
+    hellloo the text 

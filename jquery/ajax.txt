@@ -1,0 +1,13 @@
+the main imp parameters of the ajax method
+
+1)success:this function is call when the request is sucesss
+2)type:it is used to define which method is used to send the request like get,post,put,patch, etc
+3)url:it is compulsory parameter for $.ajax()which is used call file through ajax or to send the data to particular file 
+
+using the ajax
+4)timeout: how much time request should be consume to fullfill the request time is in form of milliseconds.
+5)data:it is always send in key/value pairs.
+6)complete:this parameter is executes when the request finish its task.
+7)cache:it indicates the cache of the browser.
+ajax jquery syntax
+$.ajax(url,[options parameters]);

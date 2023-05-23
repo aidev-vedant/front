@@ -1,0 +1,34 @@
+
+
+
+<html>
+    <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+    $("#abc1").click(function(){
+    $("#abc2").slideDown("slow");
+    });
+    });
+    </script>
+    <style>
+    #abc1,#abc2{
+    padding:5px;
+    border:1px solid black;
+    background-color:green;
+    text-align:center;
+    }
+    #abc2{
+    padding:50px;
+    text-align:left;
+    background-color:blue;
+    display:none;
+    }
+    </style>
+    </script>
+    </head>
+    <body>
+    <div id="abc1">hello flip1</div>
+    <div id="abc2">hello flip2</div>
+    </body>
+    </html>

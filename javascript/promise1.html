@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>hello promise</title>
+</head>
+<body>
+<p id="c1"></p>
+<p id="c2"></p>
+<p id="c3"></p>
+
+
+<script>
+
+function cal(a,b){
+
+                            return new Promise(function(resolve,reject)
+                            {
+                                document.getElementById('c1').innerHTML="fetching calculation wait!!!";
+                                let c=a/b;
+                                setTimeout(()=>{
+                                    if(a,b){
+                                    resolve(`done with calculation: ${c}`);
+                                }
+                                else
+                                {
+                                    reject("calculation failed");
+                
+                                }
+                            },2000)
+                                
+                            });
+                
+                        }
+                
+                
+                        cal(10,2).then((result)=>
+                        {
+                            document.getElementById('c2').innerHTML= result;
+                        }).catch((error)=>
+                        {
+                            document.getElementById('c3').innerHTML= error;
+                
+                
+                        });
+                         
+            </script>
+            
+            </body>
+            </html>

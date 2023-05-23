@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- <html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+});
+</script>
+</head>
+<body>
+
+<h2>This is a heading</h2>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<button>Click me to hide paragraphs</button>
+
+</body>
+</html>
+
+
+
+<html> -->
+
+
+
+
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script> 
+  
+  $(document).ready(function(){
+    $("button").click(function(){
+  $("div").animate({left:'500px'});
+  });
+  });
+  </script>
+  </head>
+  <body>
+  <button>Start Animation</button>
+  <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+  
+  </body>
+  </html>
+  
+
+
+
+
+
+<html>
+  <!--animate using predefined value-->
+  <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script> 
+  
+  $(document).ready(function(){
+  $("button").click(function(){
+  $("div").animate({height:'show',width:'toggle'});
+  });
+  });
+  
+  
+  
+  
+  
+  </script>
+  </head>
+  <body>
+  <div style="height:150px; width:150px; background-color:red;">
+  hello</div>
+  <button>click</button>
+  </body>
+  </html>
+
+
+
+
+
+
+  <!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    var div = $("div");
+    div.animate({height: '300px', opacity: '0.4'}, "slow");
+    div.animate({width: '300px', opacity: '0.8'}, "fast");
+    
+  });
+});
+</script> 
+</head>
+<body>
+
+<button>click</button>
+
+
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+</body>
+</html>
+
+

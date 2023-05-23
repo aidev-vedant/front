@@ -1,0 +1,212 @@
+<html>
+    <!--mouse click-->
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("p").click(function(){
+$("#hello").hide();
+});
+});
+
+</script>
+</head>
+<body>
+<p id="hello"> hello how all are invisible</p>
+
+</body>
+</html>
+
+
+
+
+
+
+<html>
+    <!--mouse double click-->
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("p").dblclick(function(){
+$("#hello").show(function(){
+	document.write("hello doubleclick");
+});
+});
+});
+</script>
+</head>
+<body>
+<p id="hello"> hello how all are invisible</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<html>
+    <!--mouse enter-->
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("p").mouseenter(function(){
+alert("you enter the mouse and the alert box is call automatically");
+document.write("hello mouse enter");
+});
+
+});
+
+</script>
+</head>
+
+<body>
+<p> hello the mouse enter alert appear</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<html>
+    <!---mouse leave-->
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("p").mouseleave(function(){
+alert("you enter the mouse and the alert box is call automatically");
+document.write("hello mouse leave");
+});
+
+});
+
+</script>
+</head>
+
+<body>
+<p> hello the mouse enter alert appear</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<html>
+    <!---hide all event using single click-->
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("p").click(function(){
+
+alert("hello all click hide event");
+
+$(this).hide("p");
+
+});
+});
+</script>
+</head>
+<body>
+<p>hello to all hide event</p>
+<p>hide 1</p>
+<p>hide 2</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<html>
+    <!---mouse hover-->
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("p").hover(function(){
+alert("hello mouse hover");
+document.write("the mouse hover the alert will appear on the screen");
+});
+});
+</script>
+</head>
+<body>
+<p> hello jquery hover</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+    <!--onfocus blur click css-->
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("input").focus(function(){
+$(this).css("background-color","blue");
+});
+$("input").blur(function(){
+$(this).css("background-color","red");
+});
+$("h2").click(function(){
+$(this).css("color","blue");
+$(this).css("font-family","Arial");
+});
+$("label").click(function(){
+$(this).css("text-transform","uppercase");
+$(this).css("color","green");
+});
+$("button").click(function(){
+$(this).css("color","yellow");
+$(this).css("text-transform","uppercase");
+$(this).css("text-align","center");
+alert("hello button");
+});
+});
+
+</script>
+</head>
+<body>
+<div id="ht">
+<h2>This is the Form Label</h2>
+<label>Name:</label>
+<input type="text" placeholder="enter the name">
+<label>SurName:</label>
+<input type="text" placeholder="enter the Surname">
+<label>Address:</label>
+<input type="text" placeholder="enter the Address">
+<button type="button" value="submit">submit</button>
+</div>
+</body>
+</html>

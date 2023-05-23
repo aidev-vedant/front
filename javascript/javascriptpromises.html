@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>promises Javascript</title>
+    </head>
+    <body>
+        <p id="demo1"></p>
+        <script>
+            function mydisplayer(some)
+            {
+                document.getElementById("demo1").innerHTML=some;
+            }
+
+            let myprom =new Promise(function(myresolve,myreject)
+            {
+                let x=0;
+
+                if(x==0)
+                {
+                    myresolve("ok it succesfull");
+                }
+                else
+                {
+                   myreject("its not done");
+                }
+            });
+
+            myprom.then(
+  function(value) {mydisplayer(value);},
+  function(error) {mydisplayer(error);}
+);
+
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+<!--promises with settimeout-->
+
+
+
+
+
+<html>
+<head>
+<title>Hello title</title>
+</head>
+<body>
+<h1 id="demo1"></h1>
+<script>
+
+let myproms = new Promise(function(myResolve,myReject){
+
+setTimeout(function(){ myResolve("condtion is succesfull");},3000);
+});
+
+myproms.then(function(value)
+{
+document.getElementById("demo1").innerHTML=value;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>query params</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+
+            let mykey=window.location.search;
+            let url=new URLSearchParams(mykey);
+
+            let param1=url.get('name');
+                        let param2=url.get('age');
+                        let param3=url.get('branch');
+
+            document.write("name:",param1+"<br>");
+            document.write("age:",param2+"<br>");
+            document.write("branch:",param3+"<br>");
+
+//             document.getElementById("demo").innerHTML = 
+// "The full URL of this page is:<br>" +param1;
+        </script>
+    </body>
+</html>

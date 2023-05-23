@@ -1,0 +1,82 @@
+<!-- <html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#tr").load("ajax.txt");
+        });
+     });
+</script>
+</head>
+<body>
+
+    <p id="tr">hello how are you</p>
+    <p>hello how are you</p>
+    <button>Click</button>
+
+    </body>
+</html>
+ -->
+
+
+
+
+<!-- <html>
+	<head>
+		<title>it query params</title>
+	</head>
+	
+	<body style = "text-align:center;">
+	
+		<p id = "qrpr" style =
+			"font-size: 15px; font-weight: bold;">
+		</p>
+		
+		<button onclick = "queryprm()">
+			Add Parameter
+		</button>
+		
+		<p id = "qpr" style =
+			"color:green; font-size: 20px;">
+		</p>
+		
+		<script>
+			var up = document.getElementById('qrpr');
+			var url = new URL("https://file:///Users/sys220803/Projects/front/jquery/ajaxload.html");
+			up.innerHTML = url;
+			var down = document.getElementById('qpr');
+			
+			function queryprm() {
+				url.searchParams.append('hello ', 'vedant');
+				down.innerHTML = url;
+			}
+		</script>
+	</body>
+</html>					 -->
+
+
+
+
+
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.ajax({url: "abc.txt", success: function(result){
+      $("#div1").html(result);
+    }});
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+<button>Get External Content</button>
+
+</body>
+</html>

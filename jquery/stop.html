@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#fl").click(function(){
+    $("#pl").show(5000);
+  });
+  $("#stop").click(function(){
+    $("#pl").stop();
+  });
+});
+</script>
+<style> 
+#pl, #fl {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  background-color: blue;
+  color: yellowgreen;
+  border: solid 1px #666;
+  border-radius: 3px;
+}
+
+#pl {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<button id="stop">stopshow</button>
+
+<div id="fl">click toshow div tag</div>
+<div id="pl">Hello div tag animation</div>
+
+</body>
+</html>
+
+
+
+
+

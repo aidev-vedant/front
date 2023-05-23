@@ -1,0 +1,20 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#b1").click(function(){
+$("p").before("<b>hello before</b>");
+});
+$("#b2").click(function(){
+$("p").after("<b>how are you</b>");
+});
+});
+</script>
+</head>
+<body>
+<p id="ht"> hello before and after</p>
+<button id="b1">Before</button>
+<button id="b2">After</button>
+</body>
+</html>
